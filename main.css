@@ -1,12 +1,39 @@
-#your-name {
+.navigate {
+    background-color: black;
+    color: white;
+}
+
+.nav-div {
+    padding: 10px 0px;
+}
+
+.nav-text {
     text-align: center;
 }
 
-#prac {
-    display: flex;
+.game-grid {
+    border: 1px; border-color: red; border-style: solid;
+    /* margin: 10px 3px; */
+    height: 150px;
+    width: 30%;
 }
 
-.prac-div {
-    border: 2px; border-color: red; border-style: solid; border-radius: 30px;
-    margin: 10px;
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30%
+}
+
+.button-nav {
+    background-color: rgb(99, 121, 103);
+}
+
+.button-div {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 150px
 }
