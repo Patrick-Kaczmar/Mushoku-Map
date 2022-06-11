@@ -13,12 +13,14 @@
 </head>
 
 <body>
-
+    <!-- Navigation bar that contains the games title -->
     <nav class="navigate">
         <div class="nav-div">
             <h1 class="nav-text">Tic-Tac-Toe</h1>
         </div>
     </nav>
+
+    <!-- Space for buttons that allow the user to do various things -->
     <header class="button-nav">
         <div class="button-div">
             <button onclick="reset()" class="button-layout">
@@ -28,32 +30,34 @@
     </header>
 
     <main>
+            <!-- Section that acts as the parent container for the individual grids, uses flex display -->
         <section class="grid-container">
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="1" id="one" class="game-grid">
+            <!-- individual grid squares the players will click to place an X or O -->
+            <div onclick="doTheThing(this.id)"  id="one" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="2" id="two" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="two" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="3" id="three" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="three" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="4" id="four" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="four" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="5" id="five" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="five" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="6" id="six" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="six" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="7" id="seven" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="seven" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="8" id="eight" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="eight" class="game-grid">
 
             </div>
-            <div onclick="doTheThing(this.id, this.dataset.value)" data-value="9" id="nine" class="game-grid">
+            <div onclick="doTheThing(this.id)"  id="nine" class="game-grid">
 
             </div>
         </section>
