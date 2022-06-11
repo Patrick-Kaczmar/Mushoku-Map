@@ -67,5 +67,7 @@ function winCon(idNumber, value) {
 
 function doTheThing(idNumber, value) {
     alternateTurns(idNumber);
-    winCon(idNumber, value);
+    setTimeout(() => {
+        winCon(idNumber, value);
+    }, 100);
 }
